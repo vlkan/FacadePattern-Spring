@@ -20,7 +20,9 @@ data class Transaction(
     @JoinColumn(name = "account_id", nullable = false)
     val account: Account
 
-)
+){
+
+}
 
 enum class TransactionType {
     INITIAL, TRANSFER
